@@ -1,0 +1,29 @@
+body .title {
+    color: #48A300;
+    text-align: center;
+   
+}
+
+body .title span {
+    color: #61481C;
+}
+
+body .subtitle {
+    text-align: center;
+}
+
+body .sub-icon {
+    vertical-align: middle;
+}
+
+body .app-container {
+    background-color: #FBFBFB;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
