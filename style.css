@@ -63,6 +63,11 @@ body .app-container {
     border-radius: 1em;
     padding: 32px 48px;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+
+    /* To make your web page appear smaller without adjusting every tag individually */
+    transform: scale(0.93); /* Scale down to 95% */
+    transform-origin: top left; /* Ensure scaling starts from the top left */
+    width: 105.26315789%; /* Compensate for the scale to maintain full width */
 }
 
 body .alert {
@@ -88,6 +93,7 @@ body .custom-checkbox {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 17px;
     margin-right: 26px;
+    flex-shrink: 0;
 
 }
 
@@ -102,10 +108,11 @@ body .goal-input::placeholder{
     color: rgba(217, 217, 217, 1);
 }
 
-body .final-msg {
+body .quote {
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 16px;
+    font-weight: 600;
     text-align: center;
 }
 
